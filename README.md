@@ -7,7 +7,7 @@ npm install discord-together@latest
 npm install discord.js
 ```
 ### How to use
-1. Put bot token in discordTogether.js
+1. Put bot token in `config.json`
 2. Run script with `node discordTogether.js`
 3. Use the bot with `!activity`
 4. ???
