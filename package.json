@@ -1,0 +1,27 @@
+{
+  "name": "discord-together-bot",
+  "version": "1.0.0",
+  "description": "Use Discord Activities through a bot using Discord Together",
+  "main": "discordTogether.js",
+  "dependencies": {
+    "discord-together": "^1.1.11",
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sparoney/discord-together-bot.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Sparon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sparoney/discord-together-bot/issues"
+  },
+  "homepage": "https://github.com/Sparoney/discord-together-bot#readme"
+}
