@@ -9,7 +9,7 @@ client.on('message', async message => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
     if (message.content === prefix + "activity") {
-        message.channel.send('**Activities:** youtube, poker, betrayal, fishing');
+        message.channel.send('**Activities:** youtube, poker, betrayal, fishing, chess');
     };
     if (message.content === prefix + "activity youtube") {
         if(message.member.voice.channel) {
@@ -35,6 +35,13 @@ client.on('message', async message => {
     if (message.content === prefix + "activity fishing") {
         if(message.member.voice.channel) {
             client.discordTogether.createTogetherCode(message.member.voice.channelID, 'fishing').then(async invite => {
+                return message.channel.send(`${invite.code}`);
+            });
+        };
+    };
+    if (message.content === prefix + "activity chess") {
+        if(message.member.voice.channel) {
+            client.discordTogether.createTogetherCode(message.member.voice.channelID, 'chess').then(async invite => {
                 return message.channel.send(`${invite.code}`);
             });
         };
