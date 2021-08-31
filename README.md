@@ -3,6 +3,7 @@ Use Discord Activities through a bot using [Discord Together](https://github.com
 
 ### Installation
 ```
+Requires Node v16.6 or higher
 npm install discord-together@latest
 npm install discord.js
 ```

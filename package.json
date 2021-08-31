@@ -1,13 +1,13 @@
 {
   "name": "discord-together-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use Discord Activities through a bot using Discord Together",
   "main": "discordTogether.js",
   "dependencies": {
-    "discord-together": "^1.1.11",
-    "discord.js": "^12.5.3"
+    "discord-together": "^1.1.62",
+    "discord.js": "^13.0.1",
+    "node": "16.6.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
